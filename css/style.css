@@ -1301,7 +1301,44 @@ button:focus{
 	color: #00cb86;
 }
 
-.contact-block{}
+.brand-img {
+	max-height: 130px;
+}
+
+.perks--icon svg {
+	width: 100px;
+	height: 100px;
+	margin: 1rem;
+}
+
+.perks--icon svg {
+	fill: #fff;
+}
+
+.perks--icon svg:hover {
+	fill: #00cb86 !important;
+	transition: fill 0.3s ease-in-out;
+}
+
+.perks--icon .cls-1:hover, .cls-2:hover {
+	fill: #00cb86 !important;
+}
+
+.perks--title h3 {
+	color: #fff;
+}
+
+
+.perks {
+	background-color: #12557F !important;
+	color: rgb(241, 237, 237);
+}
+
+.card {
+	border: none;
+	background: none;
+}
+
 
 .contact-block .form-group .form-control{
 	background: #e1e2e1;
